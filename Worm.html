@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> Worm </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="Worm.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id='Worm'>
+
+    <div class='Wormtitle'>
+      <h4> Worm (Write Once Read Multiple) </h4>
+      <p> A computer worm is a type of malware that infects other systems by spreading to other systems without
+        attaching itself to a host program while remaining active on the infected system. It exploits any known
+        vulnerablity on the computer and delivers a payload, such as malware, infecting the computer. </p>
+    </div>
+
+    <div class='Wormimg'>
+      <img src='Worm.jpg'>
+    </div>
+
+  </div>
+
+  <br>
+
+  <div class='examples'>
+    <h1> Examples of Worms </h1>
+
+    <div class="border-bottom">
+      <h1 style="color: blue;"> Email Worms </h1>
+      <p style="color: red;"> It can spread through email attachments and files. It copies all the emails from the email
+        addresses book in a user's contact list and send copies of itself disguised as a genuine application or file.
+      </p>
+
+      <p> One such real life case is the <span style="color: purple;"> ILOVEYOU worm </span> . The worm copied all the
+        victim's emails in his address book which means his friends, relatives, family etc email addresses. Since
+        Microsoft Outlook was widely used to store and send emails, the worm copied the victim's email adresses book
+        from Microsft Outlooks and resent itself to the emails it copied in Microsoft Outlook. This allowed the worm to
+        spread itself quickly as the receiver of the email would think that it would be safe to open the infected
+        attachment sent since it was sent from the victm's email address, someone who they knew. The attachment
+        contained a file called 'ILOVEYOU' and it had a vbs (Visual Basic Script) extension which was hidden by default.
+        Many people mistook it for a text file and opened it. This allowed the worm to spread even quickier as when
+        every one person opened the file, it spread to more people and people who received the email will open it and
+        allow the worm to spread again to more people and this cycle repeats itself. Many companies were largely
+        affected and had to close down their email server. The damage caused by this worm was around 5-8 billon dollars.
+      </p>
+
+    </div>
+
+    <br>
+
+    <div class="border-bottom">
+      <h1 style="color: blue;"> File Sharing Worms </h1>
+      <p> <span style="color: red;"> It can copy itself on shared folders and spread itself to file-sharing networks.
+        </span> Once someone upload the infected file on a public file sharing service, anyone that opens the file will
+        allow the worm to infect his computer. Sometimes, it can also be disguised as beign media file.</p>
+    </div>
+
+    <div class="border-bottom">
+      <h1 style="color: blue;"> Instant Messaging Worms </h1>
+      <p> <span style="color: red;"> It can spread to a user's contact list, disguising itself as trustworthy
+          application or file. </span> It is sent to a chat service instead of an email. </p>
+
+      <p> An example is the Sohanad worm. It target IM service, Yahoo!. Once the worm infected a user's computer, it
+        will send messages to the victim's contact list if it found that the Yahoo messaging service is running. The
+        receiver in the contact list will receive a link in the message and he may open the link, only to download a
+        copy of the worm. Sohannd worm used social engineering in order to convince the receiver to open the link. </p>
+    </div>
+
+
+
+
+</body>

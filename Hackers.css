@@ -1,0 +1,87 @@
+* {
+  font-family: 'Kalam', cursive;
+}
+
+#Hackers {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.Hackerstitle {
+  font-size: 30px;
+  flex-basis: 50%;
+}
+
+.Hackerstitle p {
+  font-size: 20px;
+}
+
+.Hackersimg {
+  flex-basis: 50%;
+  margin: auto;
+}
+
+.Hackersimg img {
+  width: 60%;
+}
+
+.Black-Hat {
+  text-align: center;
+}
+
+.Black-Hat h1 {
+  font-size: 30px;
+}
+
+.Black-Hat p {
+  font-size: 20px;
+}
+
+.Grey-Hat {
+  text-align: center;
+}
+
+.Grey-Hat h1 {
+  font-size: 30px;
+}
+
+.Grey-Hat p {
+  font-size: 20px;
+}
+
+.White-Hat {
+  text-align: center;
+}
+
+.White-Hat h1 {
+  font-size: 30px;
+}
+
+.White-Hat p {
+  font-size: 20px;
+}
+
+.Red-Hat {
+  text-align: center;
+}
+
+.Red-Hat h1 {
+  font-size: 30px;
+}
+
+.Red-Hat p {
+  font-size: 20px;
+}
+
+.border-bottom {
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}

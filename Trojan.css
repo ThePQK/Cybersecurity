@@ -1,0 +1,52 @@
+* {
+  font-family: 'Kalam', cursive;
+}
+
+#Trojan {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.Trojantitle {
+  font-size: 30px;
+  flex-basis: 50%;
+}
+
+.Trojantitle p {
+  font-size: 20px;
+}
+
+.Trojanimg {
+  flex-basis: 50%;
+  margin: auto;
+}
+
+.Trojanimg img {
+  width: 60%;
+}
+
+.functions {
+  text-align: center;
+}
+
+.functions p {
+  font-size: 20px;
+}
+
+.abilities h1 {
+  font-size: 30px;
+}
+
+.border-bottom {
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-size: 20px;
+}

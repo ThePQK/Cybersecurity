@@ -1,0 +1,72 @@
+* {
+  font-family: 'Kalam', cursive;
+}
+
+#Phishing {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+}
+
+.Phishingtitle {
+  font-size: 30px;
+  flex-basis: 50%;
+}
+
+.Phishingtitle p {
+  font-size: 20px;
+}
+
+.Phishingimg {
+  flex-basis: 50%;
+  margin: auto;
+}
+
+.Phishingimg img {
+  width: 60%;
+}
+
+.Process {
+  text-align: center;
+}
+
+.Process h1 {
+  font-size: 30px;
+}
+
+.Process p {
+  font-size: 20px;
+}
+
+.Example {
+  text-align: center;
+}
+
+.Example h1 {
+  font-size: 30px;
+}
+
+.Example p {
+  font-size: 20px;
+}
+
+.Preventation {
+  text-align: center;
+}
+
+.Preventation h1 {
+  font-size: 30px;
+}
+
+.border-bottom {
+  border-style: solid;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-size: 20px;
+}
